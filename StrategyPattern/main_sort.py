@@ -26,7 +26,7 @@ class Context():
 
         return self._strategy
 
-    @strategy.setter
+    @strategy.setter#注：这里的strategy只要保证和上面的函数strategy同名即可
     def strategy(self, strategy: Strategy) -> None:
         """
         Usually, the Context allows replacing a Strategy object at runtime.
